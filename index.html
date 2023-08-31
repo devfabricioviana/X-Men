@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/imagens/logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagen </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem poder de disparar rejadas ópticas por um acidente que aconteceu com ele quando crinça, mas não consegue controlá-los.">
+                    <img src="./src/imagens/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Ela possui poderes telepáticos e telecinéticos, mas é mais conhecida por se tornar a Fênix, uma entidade cósmica incrivelmente poderosa. Sua luta para controlar essa força a torna central nas histórias.">
+                    <img src="./src/imagens/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Ela tem a habilidade de se tornar intangível, passando através de objetos sólidos. Inteligente e habilidosa, desempenha um papel vital na equipe, tanto em combate como na manutenção tecnológica.">
+                    <img src="./src/imagens/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description=" Ela controla o clima, manipulando elementos como vento, chuva e relâmpagos. Como líder dos X-Men, combina poder e sabedoria, enfrentando desafios pessoais e globais.">
+                    <img src="./src/imagens/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Seu toque absorve memórias, poderes e vida de outros, limitando contato humano. Lida com conflitos internos devido a essa habilidade e busca controlá-la.">
+                    <img src="./src/imagens/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Possui garras retráteis de adamantium, fator de cura e longevidade. Com passado misterioso, é um lutador feroz, frequentemente em conflito interno.">
+                    <img src="./src/imagens/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Ele tem pele azul, cauda e habilidade de teletransporte. Além disso, adere à fé católica, equilibrando sua aparência e crenças.">
+                    <img src="./src/imagens/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Controla campos magnéticos, manipula metal e é líder dos mutantes na luta pela supremacia. Com passado traumático no Holocausto, ele vê os mutantes como superiores e já foi tanto herói quanto vilão.">
+                    <img src="./src/imagens/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/imagens/card-ciclope.png" alt="Persongem selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem poder de disparar rejadas ópticas por um acidente que aconteceu com ele quando crinça, mas não consegue controlá-los.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
